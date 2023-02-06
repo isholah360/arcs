@@ -1,0 +1,64 @@
+ @import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&family=Teko&display=swap');
+
+.inner{
+    
+}
+.theimg{
+    display: flex;
+    position: absolute;
+    right: 0;
+    opacity: 0;
+    margin: 10rem 0rem;
+    transform: translateY(0, -100%);
+    transition: 1s ease-in-out;
+}
+.theimg-active{
+    display: flex;
+    margin: 0rem 0rem;
+    position: absolute;
+    right: 0;
+    opacity: 1;  
+    
+}
+.mainimg{
+   min-height: 100vh;
+   max-width: 68vw;
+   
+}
+.cover{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(16, 15, 15, 0.287);
+}
+.writing{
+    font-size: 2rem;
+    color: white;
+    width: 3rem;
+    font-family: teko;
+}
+.control{
+    position: absolute;
+    left: -5rem;
+}
+.thebuttons{
+    display: inline-block;
+}
+.arrow{
+    font-size: 1.5rem;
+    color:white; 
+    border-style: solid;
+    position: absolute;
+    z-index: 100;
+    cursor: pointer;
+    right: 3rem;
+    bottom: 4rem;
+    border-width: 1px;
+    border-color: white;
+    padding: 1.1rem 1.4rem;
+    background-color: rgba(254, 255, 255, 0.053);
+}
+.top{
+    margin: 4.7rem 0;
+}
