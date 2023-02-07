@@ -30,17 +30,47 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color: rgba(16, 15, 15, 0.287);
+    background-color: rgba(16, 15, 15, 0.413);
 }
 .writing{
-    font-size: 2rem;
+    font-size: 5rem;
     color: white;
     width: 3rem;
+    width: 50rem;
     font-family: teko;
+}
+.title{
+    letter-spacing: 5px;
+}
+.classic{
+    font-size: 1.5rem;
+    font-weight: 100;
+    letter-spacing: 7px;
+    color: #B19777 ;
 }
 .control{
     position: absolute;
-    left: -5rem;
+    left: -11.2rem;
+    margin: 20% 0rem;
+}
+.designdetail{
+    font-size: .9rem;
+    font-family: poppins;
+    width: 25rem;
+}
+.writing button{
+    padding: 10px 35px;
+
+    font-family: teko;
+    font-size: 1.2rem;
+    color: #fff;
+    border-style: none;
+    letter-spacing: .9px;
+    background-color: #B19777 ;;
+}
+.outline{
+    border-top:solid;
+    border-left:10px solid 0px 20px;
 }
 .thebuttons{
     display: inline-block;

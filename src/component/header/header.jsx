@@ -31,8 +31,13 @@ useEffect(()=>{
                 <img className='mainimg' src= {image.url} alt= {image.title} />
                 <div className="cover">
                         <div className="control">
-                            <div className="writing">
-                                {image.title}
+                            <div className="outline">
+                                    <div className="writing">
+                                        <p className='classic'>{image.design}</p>
+                                        <p className='title'>{image.title}</p>
+                                        <p className='designdetail'>{image.agency}</p>
+                                        <button >DISCOVER WORK</button>
+                                    </div>
                             </div>
                         </div>
                 </div>
