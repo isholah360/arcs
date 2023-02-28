@@ -1,0 +1,140 @@
+.corner{
+    height: 80%;
+    width: 20%;
+    border-style: solid;
+    border-color: rgba(77, 72, 72, 0.281);
+    border-width: 1rem;
+    margin: 1rem 1rem;
+    
+}
+.seco{
+    margin: 1rem 3rem;
+    position: absolute;
+    height: 80%;
+    width: 12%;
+    top: 0;
+    border-color: rgba(77, 72, 72, 0.155);
+}
+.cutter{
+    background-color: rgb(248,244,243);
+    height: 85%;
+    width: 120%;
+    /* background-color: black; */
+    margin: 1.8rem 1rem;
+}
+.based{
+    height: 15%;
+    width: 100%;  
+    background-color: rgb(177,151,119);
+    margin: -.5rem 0;
+}
+.employ-bg{
+  display: flex;
+}
+.some-content{
+    margin: 5rem 8rem;
+}
+.some-content .thought{
+   font-family: teko;
+   font-size: 1.2rem;
+   color:rgb(177,151,119);
+   font-weight: 600;
+   letter-spacing: 1px;
+   word-spacing: 1px;
+   margin: 1rem 0 
+}
+.some-content .ouremploy{
+    font-weight: 1000;
+   font-size: 1.8em;
+   font-family: poppins;
+   margin: 1rem 0 
+}
+.some-content .wefeel{
+    font-family: poppins;
+    width: 25rem;
+    font-size: .9rem;
+    line-height: 1.8rem;
+}
+.arow-one{
+    font-size: 1.5rem; 
+}
+.arow-two{
+
+ font-size: 1.5rem; 
+}
+.two-button button{
+    border-style: none;
+    margin: 1rem .2rem;
+    padding: 1rem 1.5rem;
+    background-color: rgba(211, 211, 211, 0.794);
+} 
+.two-button button:hover{
+   background: rgb(177,151,119);
+   color: white;
+} 
+.some-team{
+  margin: 3rem -2.5rem;
+}
+.team-member{
+    display: flex;
+    gap: 3.5rem;
+}
+.each-employ{
+    margin: 1rem 00rem;
+    height: 22rem;
+    width: 15rem;
+    
+}
+.each-employ-active{
+    margin: 1rem 0rem;
+    height: 22rem;
+    width: 15rem;
+    
+}
+.each-employ-active .social-name{
+    scale: 1;
+    opacity: 1;  
+}
+
+
+.each-employs{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    position: relative;
+    z-index: 2;
+}
+.each-employ:hover .social-name{
+  scale: 1;
+  opacity: 1;  
+}
+.social-name{
+    background-color: rgba(0, 0, 0, 0.684);
+    height: 93%;
+    width: 115%;
+    position: relative;
+    z-index: 1;
+    scale: 0;
+    opacity: 0;
+    transform: translateX(2rem);
+    margin: -18rem -2rem;
+}
+.social-media{
+    width: 20rem;
+    height: 10rem;
+}
+.media-pix{
+    width: 5.5%;
+    margin: .5rem 15.5rem;
+    filter: invert(97%) sepia(100%) saturate(0%) 
+    hue-rotate(264deg) brightness(103%) contrast(105%);
+}
+.team-name{
+    margin: 8.5rem 0.5rem;
+    width: 14rem;
+    font-family: poppins;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color:  rgb(248,244,243);
+}

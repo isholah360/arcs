@@ -3,7 +3,9 @@
  justify-content: space-around;
  align-items: center;
  height: 5rem;
- background-color: gray;
+ border-bottom: solid;
+ border-width: 0.01px;
+ border-color: grey;
 }
 .navbar .logo {
 
@@ -13,5 +15,6 @@
 }
 .navbar ul li{
  list-style: none;
- margin: 0rem 1rem;
+ margin: 0rem 1.5rem;
+ font-family: poppins;
 }

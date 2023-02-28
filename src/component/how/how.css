@@ -1,0 +1,86 @@
+.howitwork-complete{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+   background-color: rgb(248,244,243);
+    height: 100vh;  
+    margin: -3.7rem 0;
+    background-image: url(assets/cm.jpeg);
+}
+.howcover{
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   background-color: rgba(235, 233, 233, 0.88);
+}
+.howit{
+    flex-direction: column;
+    text-align: center;
+    z-index: 100;
+}
+.howit .thehow{
+   font-family: teko;
+   font-size: 1.3rem;
+   color: burlywood;
+   word-spacing: 2px;
+   letter-spacing: 2px;
+}
+.howit .thework{
+
+    font-size: 3rem;
+    margin: 1rem 0;
+ }
+.concepts {
+    display: flex;
+    justify-items: center;
+    justify-content: center;  
+
+}
+.myconcept{
+   width: 11.8rem;
+   height: 11.8rem;
+   border-radius: 50%;
+   margin: 2rem 3rem;
+   position: relative;
+}
+.main-concept{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1em;
+    border-color: rgba(0, 0, 0, 0.097);
+}
+.contents-concept{
+    text-align: center;
+    font-family: poppins;
+}
+.con-title{
+   font-weight: 600;
+   font-size: 1.2rem;
+   margin: 1rem 0;
+}
+.con-body{
+   font-size: .9rem;
+   color: lightslategray;
+   width: 15rem;
+   margin: 0 -1rem;
+
+ }
+ .numberz{
+    position: absolute;
+    margin: -14rem 5rem;
+    font-size: 2.5rem;
+    font-family: teko;
+    color: white;
+    z-index: 100;
+ }
+ .covering{
+    background: rgba(0, 0, 0, 0.31);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 90;
+    border-radius: 50%;
+ }

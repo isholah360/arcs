@@ -1,0 +1,12 @@
+.imagecoa{
+    position: absolute;
+}
+.carcontainer{
+    position: relative;
+    display: flex;
+    margin: 10rem 0rem;
+}
+.btn{
+    z-index: 120;
+    margin: 30rem 0;
+}

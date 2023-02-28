@@ -1,9 +1,13 @@
-import React from 'react'
 
-const Contact = () => {
+import React from 'react'
+// import './contact.css'
+  
+function Contact() {
+  
+
   return (
     <div>
-      Contact
+     Contact
     </div>
   )
 }

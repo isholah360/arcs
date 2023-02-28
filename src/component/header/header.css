@@ -1,30 +1,52 @@
  @import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&family=Teko&display=swap');
 
+ .outers{
+    position: relative;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: right;
+    background-image: url(/assets/bg.jpeg);
+ }
 .inner{
-    
+    position: absolute;
+    width: 70%;
+    height: 100vh;  
+   
+}
+.theimage{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
 }
 .theimg{
     display: flex;
     position: absolute;
-    right: 0;
+    height: 100%;
+    width: 100%;
     opacity: 0;
-    margin: 10rem 0rem;
-    transform: translateY(0, -100%);
-    transition: 1s ease-in-out;
+    transition: 1s;
+  
 }
 .theimg-active{
     display: flex;
-    margin: 0rem 0rem;
     position: absolute;
-    right: 0;
-    opacity: 1;  
+    height: 100%;
+    width: 100%;
     
 }
 .mainimg{
-   min-height: 100vh;
-   max-width: 68vw;
+   min-height: 100%;
+   max-width: 100%;
    
+}
+.animate{
+    height: 100%;
+    width: 100%;
+    background-color: gray;
 }
 .cover{
     position: absolute;
@@ -52,6 +74,7 @@
     position: absolute;
     left: -11.2rem;
     margin: 20% 0rem;
+    z-index: 200;
 }
 .designdetail{
     font-size: .9rem;
@@ -60,7 +83,6 @@
 }
 .writing button{
     padding: 10px 35px;
-
     font-family: teko;
     font-size: 1.2rem;
     color: #fff;
@@ -69,26 +91,31 @@
     background-color: #B19777 ;;
 }
 .outline{
-    border-top:solid;
-    border-left:10px solid 0px 20px;
+       
 }
 .thebuttons{
     display: inline-block;
+    position: absolute;
+    z-index: 1000;
+    right: 5rem;
+    top: 30rem;
 }
 .arrow{
     font-size: 1.5rem;
     color:white; 
     border-style: solid;
-    position: absolute;
-    z-index: 100;
     cursor: pointer;
-    right: 3rem;
-    bottom: 4rem;
     border-width: 1px;
     border-color: white;
     padding: 1.1rem 1.4rem;
     background-color: rgba(254, 255, 255, 0.053);
 }
 .top{
-    margin: 4.7rem 0;
+    margin: .2rem 0;
+}
+.animated{
+    width: 100%;
+    height: 50%;
+    background-color: gray ;
+    position: absolute;
 }

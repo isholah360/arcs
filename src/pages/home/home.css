@@ -1,12 +1,107 @@
 .homes{
-    background-image: url(/assets/bg.jpeg);
+    background-image: url(/assets/za.jpg);
     min-height: 100vh;
+    max-width: 100vw;
+    position: relative;
+   
+}
+.homecover{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.346);
+}
+.services-desc{
+ height: 40vh;
+ width: 80vw;
+background-color: #dbd9c2;
+ /* background-image: url(/assets/bg.jpeg); */
+ position: absolute;
+ margin: -2.5rem 0;
+ border-width: 10px;
+}
+.main-bg{
+    height: 43vh;
+    width: 76vw;  
+    background-color: rgb(238,231,226);
+    margin: 3rem 0rem;
+    padding: 0 1rem;
+    padding-left: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.theid{
+    position: absolute;
+    right: 0;
+    top: -5rem;
+}
+.count{
+    font-size: 4rem;
+    font-family: poppins;
+    color: aliceblue;
+    position: absolute;
+    margin: -21.5rem -10rem;
+}
+.navi{
+    position: relative;
+    z-index: 100;
+    font-size: 1.1rem;
+    color: aliceblue;
+}
+.into{
+    position: absolute;
     width: 100vw;
 }
-.root{
-    height: 20rem;
-    margin: 2rem;
-    width: 30rem;
-    background-color: grey;
+.team-employee{
+    margin: 5rem 0;
+
+}
+.team-employee{
+ display: flex;
+ flex: 2 1;
+ position: absolute;
+ width: 100vw;
+ margin: 3.7rem 0rem;
+ background-color: rgb(248,244,243);
+ z-index: -1;
+}
+.team-bg{
+    height: 82vh;
+    width: 100vw;  
+    display: flex;
+    flex: 2 1;
+    position: relative;
+    
+}
+.f-leg{
+    min-width: 55%;
+    height: 100%;
+    width: 100%; 
+    background-repeat: no-repeat;
+   
+}
+.s-leg{
+    max-width: 45%;
+    min-height: 100%;
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-color: rgba(174, 170, 167, 0.158)
+
+}
+.myemployee{
+    max-height: 90vh;
+    width: 100vw;
+    background-color: rgb(248,244,243);
+}
+.main-employess{
     position: absolute;
+    top: 2rem;
+}
+.main-caro{
+    padding: 37rem 0;
+}
+.thecaro{
+    margin: 0rem 0;
+    
 }

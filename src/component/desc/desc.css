@@ -1,0 +1,35 @@
+.serv-desc{
+    
+}
+.num-title{
+    display: flex;
+  
+}
+.number{    
+ font-size: 3rem;
+ font-family: teko;
+ color: #B19777 ;
+
+}
+.btw{    
+  width: 3rem;
+  border-color: lightgray;
+  margin: 2.5rem 3rem;
+  border-width: 0.4px;
+
+  position: absolute;
+  
+}
+.tittle{    
+  font-weight: 600;
+  width: 9rem;
+  font-size: 1.2rem;
+  font-family: poppins;
+  margin: 1.4rem 5rem;
+}
+.main-descript{
+  font-family: poppins;
+  font-size: .9rem;
+  width: 18rem;
+  color: gray;
+}

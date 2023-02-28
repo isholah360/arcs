@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&family=Teko&display=swap');
+.abouts{
+    width: 100vw;
+    height: 150vh;
+    background-color: #F8F4F3;
+
+}
+.complete-about{
+    position:absolute;
+    display: flex;
+    flex: 1 1;
+    margin: 0 3rem;
+    /* justify-content: center;
+    align-items: center; */
+}
+.about-details{
+    margin: 25rem 3rem; 
+}
+.line-about{
+    display: flex;
+}
+.line-about hr{
+    width: 3rem;
+    border-color: #B19777  ;
+    position: absolute;
+}
+.line-about .theabout{
+    margin: -.9rem 4rem;
+    font-family: teko;
+    color: #B19777  ;
+    font-size: 1.1rem;
+    letter-spacing: 3px;
+    
+}
+.about-details .about-title{
+    font-size: 2.5rem;
+    font-weight: 600;
+    width: 25rem;
+    line-height: 3.2rem;
+    margin: 1rem 0;
+}
+.about-details .real-details{
+    font-family: poppins;
+    width: 35rem;
+    line-height: 1.8rem;
+    color: gray;
+}
+.about-menu{
+    margin: 1rem 0;
+}
+
+.about-menu ul{
+    display: flex;
+}
+.about-menu ul li{
+   list-style: none;
+   margin: 1.5rem .2rem;
+   font-family: poppins;
+   font-size: .75rem;
+   letter-spacing: 3px;
+   font-weight: 500;
+}
+ul li span{
+    margin: 0rem 1.5rem;
+}
+.complete-about button{
+    padding: .7rem 2rem;
+    margin: 1rem 0rem;
+    font-family: teko;
+    background-color: #B19777 ;
+    border-style: none;
+    color: white;
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+}
+.about-pixs{
+    max-width: 20rem;
+    max-height: 50vh;
+    margin: 24rem 0rem; 
+}
+.top-pix{
+    max-width: 40rem;
+    max-height: 20vh;
+    display: flex;
+    gap: 2rem;
+}
+
+.about-pixs .top-pix{
+    max-width: 15rem;
+    max-height: 40vh;
+}
+.top-pix .pix1, .pix2{
+    max-width: 22rem;
+    max-height: 40vh;
+}
+.botom-pix{
+    display: flex;
+    gap: 1.5rem;
+    margin: 1rem 0;
+}
+.botom-pix .pix1{
+    width: 20.5rem;
+    height: 35vh;
+}
+.botom-pix .year-deco{
+    min-width: 15vw;
+    min-height:35vh;
+    border-style: solid;
+    border-width: 15px;
+    border-color: lightgrey;
+}
+.thecut{
+    position: absolute;
+    width: 2rem;
+    height: 20vh;
+    background-color: #F8F4F3;
+    margin: 2rem -1.3rem;
+}
+.circular{
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: lightgrey;
+    border-radius: 50%;
+    border-color: lightgrey;
+    margin: 3.5rem 0.5rem;
+    position: absolute;
+    animation-name: circular;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.theyear{
+    position: absolute;
+    margin: 2rem -1.5rem;
+    z-index: 100;
+}
+@keyframes circular {
+    from{transform: translateY(-2.5rem)}
+    to{transform: translateY(4rem);}
+}
+.year-number{
+    font-size: 5rem;
+    font-family: teko;
+}
+.the-exp{
+    font-size: 1rem ;
+    font-family: poppins;
+    font-weight: 600;
+    width: 10rem;
+    margin: -1.5rem 0;
+}
