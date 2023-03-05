@@ -1,0 +1,119 @@
+.test-body{
+   margin: 2rem 0;
+}
+.test-title{
+    font-family: teko;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    color: rgb(177,151,119);
+    padding: 2rem 0;
+    text-align: center;
+ 
+}
+.test-what{
+    color: rgb(248,244,243);;
+    font-size: 3rem;
+    text-align: center;
+}
+.main_testimony{
+ max-width: 20rem;
+}
+.test-data{
+    font-size: 1rem;
+    color: white;   
+    opacity: 1;
+  
+}
+.test-data-active{
+    font-size: 1rem;
+    color: white;   
+    opacity: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  
+}
+
+.okeys{
+    position: absolute;
+    opacity: 1;
+}
+.live-test{
+    position: absolute;
+    margin: 2rem 0rem;
+}
+
+.inner-libes{
+    opacity: 1;
+}
+.twokey{
+    color: white;
+    opacity: 0;
+    display: flex;
+    position: absolute;
+    gap: 1rem; 
+}
+.active{
+    color: white;
+    opacity: 1;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-left: -20rem;
+  
+}
+.lefty, .righty{
+    color: white;
+    font-size: 1rem;
+    border-style: solid;
+    width: 32rem;
+    height: 15rem;
+    border-width: .6rem;
+    border-color: rgba(110, 105, 105, 0.344);
+
+}
+.test-content{
+        color: white;
+        font-size: 1rem;
+        width: 30rem;
+        line-height: 1.8rem;
+        text-align: left;
+        padding: 2rem 2rem 2rem 2rem;
+        letter-spacing: 1px;
+        font-family: poppins;
+      
+}
+.person{
+    width: 20rem;
+    height: 4rem;
+    margin: 1rem 1rem;
+    display: flex;
+    color: aliceblue;
+}
+.per{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+}
+.per-name{
+    width: 10rem;
+    margin: 1rem 2rem;
+    font-family: poppins;
+    letter-spacing: 1px;
+}
+.change-button{
+    position: absolute;
+    margin: 8rem 9rem;
+    left: 0rem;
+}
+.change-button button{
+    padding: 1rem 1.3rem;
+ }
+.change-button .de-right{
+   right: -65.7rem;
+   position: absolute;
+}
+.change-button button:hover{
+    background-color: burlywood;
+ }

@@ -98,10 +98,28 @@ background-color: #dbd9c2;
     position: absolute;
     top: 2rem;
 }
+
 .main-caro{
-    padding: 37rem 0;
+    padding: 0rem 0;
+    margin: 7rem -12rem ;
+    position: relative;
+    float:right;
 }
 .thecaro{
     margin: 0rem 0;
     
+}
+.cancel{
+    margin: 35rem 0 0 0;
+}
+
+.testimonies{
+   background-color: black;
+   height: 100vh;
+   width: 100vw;
+
+   margin-top: -6rem;
+   background-repeat: no-repeat;
+   display: flex;
+   justify-content: center;
 }

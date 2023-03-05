@@ -13,8 +13,10 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.8.0",
+    "react-slick": "^0.29.0",
     "react-spring": "^9.6.1",
     "rreact": "^0.0.1-security",
+    "slick-carousel": "^1.8.1",
     "spring": "^0.0.0"
   },
   "devDependencies": {

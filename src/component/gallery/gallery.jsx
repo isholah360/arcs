@@ -3,13 +3,13 @@ import './gallery.css'
 
 const galleries = [
     {   id:1,
-        url:'/assets/kit.jpeg'},
+        url:'assets/15599.jpg'},
     {   id:2,
-        url:'/assets/lvr.jpeg'},
+        url:'assets/int2.jpeg'},
     {   id:3,
-        url:'/assets/bed.jpeg'},
+        url:'assets/int6.jpeg'},
     {   id:4,
-        url:'/assets/din.jpeg'}
+        url:'assets/int5.jpeg'}
 ]
 
 const Gallery = () => {

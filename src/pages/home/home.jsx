@@ -4,11 +4,14 @@ import './home.css'
 import { About, Gallery, How, Employee, Caro } from '../../component'
 import Navbar from '../../component/navbar/navbar'
 import Desc from '../../component/desc/desc'
+import Test from '../../component/caro/test'
+import Testimony from '../../component/testimony/testimony'
 
 
 const Home = () => {
 
   return (
+    <>
     <div>
       <div className="homes">
         <div className="homecover"></div>
@@ -67,21 +70,31 @@ const Home = () => {
                 </div>
                 <div className="based"></div>
               </div>
-              <div className="s-leg">h</div>
+              <div className="s-leg"></div>
           </div>
          <div className="ex-employess">
            <div className="main-employess">
               <Employee/>
-          </div>
+            </div>
          </div>
         </div>
       </div>
       <div className="main-caro">
           <div className="thecaro">
-              <Caro/>
+              <div className="caro-employess">
+              <Test/>
+              </div>
           </div>
       </div>
+      <div className="cancel">
+     
+      </div>
+      <div className="testimonies">
+        <Testimony/>
+      </div>
     </div>
+    
+    </>
   )
 }
 
