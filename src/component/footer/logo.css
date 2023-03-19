@@ -1,0 +1,34 @@
+.Foot-logo{
+    margin: 5rem 0rem 2rem 6rem;
+}
+.logo-title{
+    font-size: 2rem;
+    font-family: poppins;
+    font-weight: 700;
+}
+.fb-logo{
+    width: 20%;
+    filter: invert(91%) sepia(4%) saturate(46%) hue-rotate(123deg) 
+    brightness(95%) contrast(88%);
+}
+.logo-display{
+    display: flex;
+    gap: 1rem;
+    margin: 3rem 0;
+}
+.logo-holder-img{
+    width: 4rem;
+    height: 4rem;
+    border-color:  #B19777 ;;
+    border-width: 0.09rem;
+    border-radius: 50%;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo-holder-img:hover ~ .cursor{
+    scale: 1.5;
+}

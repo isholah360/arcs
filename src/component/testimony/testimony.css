@@ -1,5 +1,14 @@
 .test-body{
    margin: 2rem 0;
+   
+}
+.testy-content{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0rem 35rem;
 }
 .test-title{
     font-family: teko;
@@ -7,15 +16,17 @@
     letter-spacing: 1px;
     color: rgb(177,151,119);
     padding: 2rem 0;
-    text-align: center;
+   
  
 }
 .test-what{
     color: rgb(248,244,243);;
     font-size: 3rem;
-    text-align: center;
+    width: 30rem;
+   
 }
-.main_testimony{
+
+/* .main_testimony{
  max-width: 20rem;
 }
 .test-data{
@@ -116,4 +127,4 @@
 }
 .change-button button:hover{
     background-color: burlywood;
- }
+ } */

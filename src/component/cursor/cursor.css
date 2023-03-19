@@ -1,0 +1,36 @@
+.cursor{
+    position: fixed;
+    z-index: 5000;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    pointer-events: none;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #B19777 ;;
+    transform: translate(0%, 0%);
+    transition: .1s;
+}
+.cursor2{
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color:  #B19777 ;
+    pointer-events: none;
+    user-select: none;
+    border: 1px solid #B19777 ;;
+    transform: translate(0%, 0%);
+    transition: .1s;
+}
+
+.logo-holder-img:hover ~ .cursor{
+    transform: translate(0%, 0%);
+    scale: 4rem;
+}

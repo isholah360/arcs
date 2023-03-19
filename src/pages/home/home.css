@@ -110,16 +110,56 @@ background-color: #dbd9c2;
     
 }
 .cancel{
-    margin: 35rem 0 0 0;
+    margin: 35rem -5rem 10rem 0rem;
+    background-color: black;
+    background-image: url(assets/tetbg.jpeg);
+    width: 100vw;
+    height: 100vh;
+
 }
 
 .testimonies{
    background-color: black;
    height: 100vh;
    width: 100vw;
-
+   background-image: url(assets/tetbg.jpeg);
    margin-top: -6rem;
    background-repeat: no-repeat;
    display: flex;
+  
    justify-content: center;
 }
+.incor{
+display: block;
+opacity: 1;
+padding: 2rem 1rem;
+margin: 2rem 1rem;
+position: relative;
+
+}
+.home-blog{
+    text-align: center;
+    margin: -10rem 0;
+    background-color: rgb(248,244,243);
+    height: 150vh;
+    width: 100vw;
+}
+.home-footer{
+    height: 60vh;
+    width: 100vw;
+    margin: 14rem 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.home-footer:hover ~ .cursor{
+  transform: translate(0%, 0%);
+ scale: 4rem;
+}
+
+
+
+
+
+

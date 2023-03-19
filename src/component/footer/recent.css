@@ -1,0 +1,63 @@
+.recent-holder-img{
+    width: 12rem;
+}
+.recent-location-content{
+    font-size: .8rem;
+    font-family: poppins;
+    width: 16rem;
+    margin: .3rem -5rem;
+    word-spacing: 2px;
+    position: relative;
+}
+.recent-location-content .date{
+    color:  #B19777 ;
+    margin: .3rem 0rem;
+}
+.input{
+    background-color: rgba(0, 0, 0, 0.285);
+    padding: .9rem 8rem .9rem 1rem;
+    border-radius: 25px;
+    border-width: 0.09rem;
+    border-style: solid;
+    margin: 0 5rem;
+}
+.gram{
+    width: 60%;
+    margin: .2rem 0rem;
+    filter: invert(91%) sepia(4%) saturate(46%) hue-rotate(123deg) 
+    brightness(95%) contrast(88%);
+   
+}
+.holder-gram{
+    width: 2.9rem;
+    height: 2.9rem;
+    margin: 0 -8.8rem;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    background-color:  #B19777 ;
+    border-radius: 3rem;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+.recent-location-content{
+   
+   
+}
+
+.holder-gram:hover ~ .cursor{
+    background-color: #B19777;
+    transform: translate(-50%, -50%);
+    scale: 1.5;
+    opacity: .3;
+    transition: 1.5s;
+}
+.holder-gram:hover ~ .cursor{
+    background-color: #B19777;
+    transform: translate(0%, 0%);
+    margin: -13rem -3rem;
+    scale: 1.5;
+    opacity: .1;
+    transition: 1.5s;
+}

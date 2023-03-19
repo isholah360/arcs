@@ -1,19 +1,25 @@
-import React from 'react'
+import React, {useRef, useEffect} from 'react'
 import Header from '../../component/header/header'
 import './home.css'
-import { About, Gallery, How, Employee, Caro } from '../../component'
-import Navbar from '../../component/navbar/navbar'
-import Desc from '../../component/desc/desc'
-import Test from '../../component/caro/test'
-import Testimony from '../../component/testimony/testimony'
+import { About, Testimony, Gallery, How, Employee, 
+  Testify, Blog, Footer, Navbar, Desc, Test} from '../../component'
+import { useState } from 'react'
 
 
 const Home = () => {
 
+  const ref = useRef(null)
+
+ 
+
+
+
+
+
   return (
     <>
     <div>
-      <div className="homes">
+      <div className="homes" >
         <div className="homecover"></div>
         <div className="navi">
          <div className="into">
@@ -87,14 +93,22 @@ const Home = () => {
           </div>
       </div>
       <div className="cancel">
+        <Testimony/>
+
+      <div className="incor">
+        <Testify/>
+        </div>
      
       </div>
-      <div className="testimonies">
-        <Testimony/>
+      <div className="home-blog">
+        <Blog/>
       </div>
+     <div className="home-footer">
+       <Footer/>
+     </div>
     </div>
-    
-    </>
+
+      </>
   )
 }
 

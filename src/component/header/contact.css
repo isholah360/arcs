@@ -72,6 +72,7 @@
  margin: 0 -2rem;
  position: absolute;
  color: #B19777 ;
+ z-index: 1;
 
 }
 .linez .hori{
@@ -94,6 +95,7 @@
     margin: 0 -2rem;
     position: absolute;
     color: #B19777 ;
+    z-index: -1;
 }
 .lines .hori{
     width: 5rem;
@@ -155,7 +157,7 @@
     position: absolute;
     left: -12rem;
     margin: 20% 0rem;
-    z-index: 200;
+    z-index: 1
 }
 .designdetail{
     font-size: .9rem;
@@ -195,4 +197,8 @@
 .something{
     font-size: 2rem;
     color: white;
+}
+.thebuttons .count{
+    font-family: Teko;
+    padding: .5rem 0 0 0;
 }

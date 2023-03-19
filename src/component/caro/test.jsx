@@ -54,6 +54,8 @@ function Test() {
     //   })
     
         const settings = {
+          className: "center",
+          centerMode: true,
           infinite: true,
           speed: 500,
           slidesToShow: 3,

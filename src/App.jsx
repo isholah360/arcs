@@ -4,15 +4,11 @@ import './App.css'
 import Blog from './pages/blogs/blog'
 
 
+
 function App() {
   return (
     <div className="App">
      <Home/>
-     <About/>
-     <Contact/>
-     <Portfolio/>
-     <Blog/>
-
     </div>
   )
 }

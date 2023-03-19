@@ -1,0 +1,13 @@
+.home-footer-bg{
+    background-color: black;
+    height: 80vh;
+    width: 100vw;
+    margin: 0 3%;
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+    flex: 1 1 2;
+    color: white;
+}
+
+

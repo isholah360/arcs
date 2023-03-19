@@ -1,0 +1,30 @@
+.contact-us{
+    margin: 5rem 0rem 2rem 0;
+}
+.contact-title{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    font-family: poppins;
+}
+.location{
+    display: flex;
+    gap: 0rem;
+    margin: 2rem 0rem;
+}
+.holder-img{
+    width: 3.5rem;
+}
+.holder{
+    width: 50%;
+    filter: invert(91%) sepia(4%) saturate(46%) hue-rotate(123deg) 
+    brightness(95%) contrast(88%);
+}
+.location-content{
+    width: 20rem;
+    font-size: 1rem;
+    font-family: poppins;
+}
+.location-content .address{
+    font-weight: 650;
+    margin: 0rem 0 .6rem 0;
+}
