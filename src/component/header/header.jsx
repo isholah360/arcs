@@ -55,8 +55,8 @@ const Header = () => {
             <div className="cont-display">
               <div className="contents dif" ref={ref3} >
               <div className="linez">
-              <hr className='hori' />
-              <hr className='vert'/>
+                <hr className='hori' />
+                <hr className='vert'/>
               </div>
               {Images.map((image)=>(
                 <div className={image.id == currentz ? "the-active":"round"}  key={image.id}>

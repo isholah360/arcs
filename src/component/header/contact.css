@@ -14,7 +14,6 @@
     align-items: center;
 }
 .theinner{
-    background-color: lightpink;
     height: 100vh;
     width: 67vw;
     left: 0;
@@ -201,4 +200,41 @@
 .thebuttons .count{
     font-family: Teko;
     padding: .5rem 0 0 0;
+}
+
+@media screen and (max-width:460px){
+   
+    .theinner{
+        width: 100vw;
+    }
+    .theouter{
+        width: 100vw; 
+        height: 110vh;
+       
+    }
+    .title{
+        letter-spacing: 5px;
+        font-size: 2.3rem;
+        margin: .4rem 0rem;
+        width: 30rem;
+    }
+    .contents{
+        margin: 0 1rem;
+    }
+    .designdetail{
+        font-size: .8rem;
+        font-family: poppins;
+        width: 17rem;
+    }
+    .thebuttons .count{
+      margin: 4.5rem 0rem;
+      left:-15rem;
+      font-size: 3rem;
+        
+    }
+    .theid{
+        margin: 31rem 12rem;
+        left: 1.6rem;
+        font-size: 4rem;
+    }
 }

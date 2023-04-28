@@ -9,14 +9,16 @@
 .complete-about{
     position:absolute;
     display: flex;
-    flex: 1 1;
-    margin: 0 3rem;
+    /* flex: 1 1; */
+    margin: 0rem 5rem;
     /* justify-content: center;
     align-items: center; */
 }
 .about-details{
     margin: 25rem 3rem; 
+    max-width: 35rem;
 }
+
 .line-about{
     display: flex;
 }
@@ -25,7 +27,7 @@
     border-color: #B19777  ;
     position: absolute;
 }
-.line-about .theabout{
+.line-about .the-about{
     margin: -.9rem 4rem;
     font-family: teko;
     color: #B19777  ;
@@ -36,13 +38,12 @@
 .about-details .about-title{
     font-size: 2.5rem;
     font-weight: 600;
-    width: 25rem;
+    max-width: 25rem;
     line-height: 3.2rem;
     margin: 1rem 0;
 }
 .about-details .real-details{
     font-family: poppins;
-    width: 35rem;
     line-height: 1.8rem;
     color: gray;
 }
@@ -81,7 +82,7 @@ ul li span{
 }
 .top-pix{
     max-width: 40rem;
-    max-height: 20vh;
+    max-height: 40vh;
     display: flex;
     gap: 2rem;
 }
@@ -100,8 +101,8 @@ ul li span{
     margin: 1rem 0;
 }
 .botom-pix .pix1{
-    width: 20.5rem;
-    height: 35vh;
+    max-width: 20.5rem;
+    max-height: 35vh;
 }
 .botom-pix .year-deco{
     min-width: 15vw;
@@ -132,7 +133,7 @@ ul li span{
 }
 .theyear{
     position: absolute;
-    margin: 2rem -1.5rem;
+    margin: 1rem -1.5rem;
     z-index: 100;
 }
 @keyframes circular {
@@ -149,4 +150,69 @@ ul li span{
     font-weight: 600;
     width: 10rem;
     margin: -1.5rem 0;
+}
+@media screen and (max-width:460px) {
+    .abouts{
+       margin: 20rem 0rem;
+       height: 300vh;
+       background-color: #F8F4F3;
+    
+    }
+    .complete-about{
+        display: block;  
+        background-color: #F8F4F3;
+    }
+    .about-details{
+        margin: 20rem -2.3rem; 
+       
+    }
+    .line-about .the-about{
+        font-size: 1rem;
+    }
+    .about-details .about-title{
+        font-size: 2rem;
+        /* min-width: 10rem; */
+        width: 20rem;
+    }
+    .about-details .real-details{
+        font-size: .9rem;
+          width: 20rem;
+    }
+    .about-menu{
+        margin: 1rem 0;
+    }
+    .about-menu{
+        margin: 1rem 0;
+    }
+    .top-pix{
+        margin: -18em -3rem;
+    }
+    .botom-pix{
+        flex-direction: row;
+        margin: 20em -3rem;
+    }
+    .about-menu ul{
+        display: block;
+    }
+    .top-pix .pix1{
+        display: none;
+    }
+    .botom-pix{
+        display: block;
+    }
+    .botom-pix .year-deco{
+       margin: 2rem 0;
+       max-width: 21rem;
+       height: 15rem;
+    }
+    
+    .top-pix .pix2{
+        max-width: 21rem;
+        max-height: 45vh;
+    }
+    .botom-pix .pix1{
+        max-width: 21rem;
+        max-height: 45vh;
+    }
+    
 }

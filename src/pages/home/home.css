@@ -14,7 +14,7 @@
 .services-desc{
  height: 40vh;
  width: 80vw;
-background-color: #dbd9c2;
+ background-color: #dbd9c2;
  /* background-image: url(/assets/bg.jpeg); */
  position: absolute;
  margin: -2.5rem 0;
@@ -52,6 +52,10 @@ background-color: #dbd9c2;
 .into{
     position: absolute;
     width: 100vw;
+}
+.theabout{
+    position: relative;
+    z-index: -1;
 }
 .team-employee{
     margin: 5rem 0;
@@ -158,7 +162,24 @@ position: relative;
  scale: 4rem;
 }
 
+@media screen and (max-width: 460px){
 
+    .main-bg{
+        display: block;
+        width: 100vw;  
+        height: 120vh;
+        padding: 1rem 1.5rem;
+        /* margin: 1rem 0; */
+       
+    }
+    .services-desc{
+        background-color: #dbd9c200;
+       }
+       .theabout{
+        margin: 30rem 0rem 0rem 0;
+     }
+
+}
 
 
 

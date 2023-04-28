@@ -18,7 +18,6 @@ const Desc = (
             {main}
         </div>
      </div>
-       
       
     </div>
   )

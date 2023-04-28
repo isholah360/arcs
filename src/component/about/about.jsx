@@ -7,7 +7,7 @@ function About() {
          <div className="about-details">
             <div className="line-about">
                 <hr />
-                <p className='theabout'>About Us</p>
+                <p className='the-about'>About Us</p>
             </div>
             <p className='about-title'>Best Designers Architectures for You. </p>
             <p className='real-details'>Architecture bibendum pharetra eleifend. Suspendisse vel volutpat purus, sit amet bibendum nisl. Cras mollis turpis a ipsum ultes, nec condimentum ipsum consequat. Mauris vitae consequat nibh, vitae interdum mi. </p>
@@ -26,7 +26,7 @@ function About() {
                 <img  className='pix2' src="assets/bed.jpeg" alt="" />
             </div>
             <div className="botom-pix">
-            <img className='pix1' src="assets/din.jpeg" alt="" />
+            <img className='pix1 pick' src="assets/din.jpeg" alt="" />
             <div className="year-deco">
               <div className="thecut"></div>
               <div className="circular"></div>
