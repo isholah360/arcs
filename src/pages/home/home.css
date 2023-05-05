@@ -3,7 +3,6 @@
     min-height: 100vh;
     max-width: 100vw;
     position: relative;
-   
 }
 .homecover{
     position: absolute;
@@ -130,7 +129,6 @@
    margin-top: -6rem;
    background-repeat: no-repeat;
    display: flex;
-  
    justify-content: center;
 }
 .incor{
@@ -178,6 +176,33 @@ position: relative;
        .theabout{
         margin: 30rem 0rem 0rem 0;
      }
+    .testimonies{
+        margin: 5rem 0;
+     }
+     .cancel{
+        margin: 115rem 0 0 0;
+        height: 120vh;
+    }
+    .incor{
+      display: none;
+    }
+    .team-employee{
+        margin: 10rem 0;
+    }
+    .f-leg{
+        display: none;
+    }
+    .team-bg{
+        height: 160vh;    
+    }
+    .main-caro{
+        padding: 0rem 0;
+        margin: 35rem 0rem ;
+        position: relative;
+        float:right;
+    }
+    
+
 
 }
 

@@ -140,3 +140,26 @@
     font-weight: 600;
     color:  rgb(248,244,243);
 }
+@media screen and (max-width: 460px){
+
+    .corner, .seco{
+        display: none; 
+    }
+    .some-content{
+        margin: 0 3rem;
+    }
+    .some-content .thought{
+        font-size: 1.5rem;
+     }
+     .some-content .ouremploy{
+        font-size: 1.5rem;
+     }
+     .some-content .wefeel{
+         font-family: poppins;
+       
+         width: 16rem;
+         font-size: .9rem;
+         line-height: 1.8rem;
+     }
+
+}

@@ -12,7 +12,7 @@
 
     border-width: .8rem;
     border-color: rgba(211, 211, 211, 0.303);
-    max-width: 30rem;
+    width: 30rem;
     height: 16rem;
 }
 .review::before{
@@ -97,7 +97,7 @@
 }
 .companies{
     background-color: rgb(202, 196, 184);
-    width: 82vw;
+    min-width: 82vw;
     height: 12rem;
     margin: 2rem 7%;
     border-radius: 20px;
@@ -107,4 +107,23 @@
 }
 .comp-width{
     width: 18%;
+}
+.unit-testy{
+    display: none;
+}
+
+@media screen and (max-width: 460px){
+
+    .review{
+           
+    }
+    .companies{
+         margin: 0rem 0;
+    }
+   
+    .group{
+      margin: 0rem 0 0 0rem;
+    }
+   
+
 }

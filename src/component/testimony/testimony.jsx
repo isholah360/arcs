@@ -16,10 +16,11 @@ const Testimony = () => {
        <div className="testy-content">
            <p className="test-title">TESTIMONIALS</p>
            <p className="test-what">What People Says?</p>
+          
        </div>
         <div className="the-trial">
            <div className="unit">
-            
+           
            </div>
         </div>
       </div>

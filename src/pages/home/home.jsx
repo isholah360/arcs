@@ -95,10 +95,9 @@ const Home = () => {
       <div className="cancel">
         <Testimony/>
 
-      <div className="incor">
-        <Testify/>
+        <div className="incor">
+          <Testify/>
         </div>
-     
       </div>
       <div className="home-blog">
         <Blog/>
