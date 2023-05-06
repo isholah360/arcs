@@ -60,3 +60,32 @@
   letter-spacing: 2px;
   color: rgb(226, 191, 145);
 }
+
+@media screen and (max-width: 460px){
+    .our-blog{
+        
+        font-size: 2rem;
+       
+    }
+    .the-blogmap{
+        flex-direction: column;
+        gap: 7rem;
+    }
+    .blog-titles{
+        font-size: 1.2rem;
+        max-width: 90%;
+    }
+    .content-bg{
+       padding: .5rem;
+    }
+    .blog-pix{
+        max-height: 80%;
+        max-width: 80%;
+    }
+    .content-bg{
+        max-height: 10rem;
+        max-width: 80%;
+        background: white;
+        margin: -6rem 5.5rem;
+    }
+}

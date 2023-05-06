@@ -32,3 +32,10 @@
 .logo-holder-img:hover ~ .cursor{
     scale: 1.5;
 }
+
+@media screen and (max-width: 460px){
+    .Foot-logo{
+        margin: 1rem 0rem 2rem 1rem;
+    }
+       
+}

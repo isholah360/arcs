@@ -61,3 +61,10 @@
     opacity: .1;
     transition: 1.5s;
 }
+
+@media screen and (max-width: 460px){
+   
+       .contact-us{
+        margin: 2rem 0 0 0;
+       }
+}

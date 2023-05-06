@@ -4,6 +4,7 @@ import { data } from './data'
 import Slider from 'react-slick'
 import Testify from './testify'
 import './testimony.css'
+import Caro from '../caro/caro'
 
 
 const Testimony = () => {
@@ -12,6 +13,7 @@ const Testimony = () => {
     <>
     <div>
       <div className="test-body">
+      
        
        <div className="testy-content">
            <p className="test-title">TESTIMONIALS</p>
@@ -20,7 +22,7 @@ const Testimony = () => {
        </div>
         <div className="the-trial">
            <div className="unit">
-           
+          
            </div>
         </div>
       </div>

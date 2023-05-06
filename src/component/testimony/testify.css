@@ -115,7 +115,9 @@
 @media screen and (max-width: 460px){
 
     .review{
-           
+
+        width: 20rem;
+        height: 22rem;
     }
     .companies{
          margin: 0rem 0;
@@ -124,6 +126,36 @@
     .group{
       margin: 0rem 0 0 0rem;
     }
+    .review::before{
+        width: 13rem;  
+     }
+     .quote{
    
+        font-size: 5rem;
+        font-weight: 700;
+        margin: 0.25rem 11.5rem;
+       
+    }
+    .pluz{
+        margin: -16.5rem -1rem;
+        position: relative;
+    }
+    .minuz{
+     right: 0;
+     z-index: 1000;
+     margin: 11.5rem 25rem;
+    }
+    .companies{
+       
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 50%;
+        height: 25rem;
+        padding: 1rem 0rem 0 2rem;
+    }
+    .comp-width{
+        width: 80%;
+     
+    }
 
 }

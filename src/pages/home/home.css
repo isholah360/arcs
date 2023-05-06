@@ -181,10 +181,12 @@ position: relative;
      }
      .cancel{
         margin: 115rem 0 0 0;
-        height: 120vh;
+        height: 140vh;
     }
     .incor{
-      display: none;
+      position: absolute;
+      margin: -28rem 2rem;
+      width: 50rem;
     }
     .team-employee{
         margin: 10rem 0;
@@ -201,8 +203,16 @@ position: relative;
         position: relative;
         float:right;
     }
+    .home-blog{
+        margin: 7rem 0;  
+    }
+    .home-footer{
+        height: 60vh;
+        width: 100vw;
+        margin: 50rem 0 0 0;
+       
     
-
+    }
 
 }
 

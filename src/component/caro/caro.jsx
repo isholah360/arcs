@@ -36,10 +36,11 @@ function SampleNextArrow(props) {
 function Caro() {
 
     const settings = {
-        dots: true,
-        infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 1,
+      autoplay: true,
+      infinite: true,
+      centerPadding: "1rem",
+      slidesToShow: 1,
+      speed: 500,
         nextArrow: <SampleNextArrow />,
         prevArrow: <SamplePrevArrow />
       };
@@ -72,9 +73,30 @@ function Caro() {
   return (
     <div>
     
-      <div>
+      <div className='mobile-testy'>
         
        <Slider {...settings}>
+
+        <div className="my-testy">
+        The wrong URLs are being used being used 
+        because it is incorrect in your HTML. 
+        The two script tags look like this:
+        </div>
+        <div className="my-testy">Capitalize on 
+        low hanging fruit to identify a ballpark 
+        value added activity to beta test. 
+        Override the digital divide with
+         additional clickthroughs from DevOps. 
+        </div>
+        <div className="my-testy">
+        Capitalize on low hanging fruit to identify 
+        a ballpark value added activity to beta test.
+         Override the digital divide with additional 
+         clickthroughs from DevOps. Nano data tech 
+         immersion along the information highway. 
+         Love the support of Architek peoples 
+         override.
+        </div>
          
         </Slider>
       </div>
