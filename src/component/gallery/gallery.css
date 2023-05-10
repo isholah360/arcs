@@ -110,11 +110,14 @@
     color: white;
 }
 @media screen and (max-width:460px) {
+
   .mygallery{
    margin: -18rem 0;
    flex-direction: row;
    height: 10vh;
+
   }
+ 
   .divider{
     display: inline;
     height: 45vh;

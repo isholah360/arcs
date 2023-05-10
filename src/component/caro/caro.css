@@ -174,7 +174,7 @@
 @media screen and (max-width: 460px){
     .themark{
         width: 107vw;
-        margin: 3rem -2rem;
+        margin: -10rem -2rem;
     }
     .combine{
         position: absolute;
@@ -189,5 +189,13 @@
         position: absolute;
         margin: -23em 0 0 4rem;
     }
+    .scrcover{
+        width: 18rem
+
+    }
+    .dimg{
+        max-width: 26rem;
+        height: 22rem;
+       }
     
 }

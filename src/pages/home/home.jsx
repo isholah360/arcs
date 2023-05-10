@@ -10,15 +10,9 @@ const Home = () => {
 
   const ref = useRef(null)
 
- 
-
-
-
-
-
   return (
     <>
-    <div>
+    <div className='complete-home'>
       <div className="homes" >
         <div className="homecover"></div>
         <div className="navi">

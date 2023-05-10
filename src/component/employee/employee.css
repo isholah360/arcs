@@ -145,8 +145,9 @@
     .corner, .seco{
         display: none; 
     }
+    
     .some-content{
-        margin: 0 3rem;
+        margin: 10rem 0 0 3rem;
     }
     .some-content .thought{
         font-size: 1.5rem;

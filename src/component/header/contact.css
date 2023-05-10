@@ -131,13 +131,6 @@
     width: 18rem;
     transition: 2s;
 }
-.dif{
-    
-
-}
-.title-animate{
-    
-}
 .title{
     letter-spacing: 5px;
     font-size: 5rem;
@@ -206,6 +199,7 @@
    
     .theinner{
         width: 100vw;
+        overflow-x: hidden;
     }
     .theouter{
         width: 100vw; 

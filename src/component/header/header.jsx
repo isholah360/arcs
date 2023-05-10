@@ -50,7 +50,7 @@ const Header = () => {
   }
 
   return (
-    <div> 
+    <div className='comp-outer'> 
       <div className="outer">
             <div className="cont-display">
               <div className="contents dif" ref={ref3} >

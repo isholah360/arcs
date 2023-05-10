@@ -156,7 +156,8 @@ ul li span{
        margin: 20rem 0rem;
        height: 300vh;
        background-color: #F8F4F3;
-    
+       overflow-x: hidden;
+  
     }
     .complete-about{
         display: block;  
@@ -207,12 +208,13 @@ ul li span{
     }
     
     .top-pix .pix2{
-        max-width: 21rem;
+        max-width: 22rem;
         max-height: 45vh;
     }
     .botom-pix .pix1{
-        max-width: 21rem;
+        max-width: 22rem;
         max-height: 45vh;
+     
     }
     
 }

@@ -31,7 +31,7 @@ const Gallery = () => {
  }
 
   return (
-    <div>
+    <div className='comp-gallery'>
       <div className="mygallery">
          {galleries.map((image)=>(
             <div className={image.id == display ? "eachimg-active" : "eachimg"} key={image.id}>

@@ -162,56 +162,66 @@ position: relative;
 
 @media screen and (max-width: 460px){
 
+    .complete-home{
+        overflow-x: hidden;
+    }
     .main-bg{
-        display: block;
+      
         width: 100vw;  
         height: 120vh;
         padding: 1rem 1.5rem;
-        /* margin: 1rem 0; */
-       
+        overflow-x: hidden;
+        display: block;
     }
     .services-desc{
         background-color: #dbd9c200;
+       
        }
        .theabout{
         margin: 30rem 0rem 0rem 0;
      }
     .testimonies{
         margin: 5rem 0;
+      
      }
      .cancel{
-        margin: 115rem 0 0 0;
+        margin: -10rem 0 0 0;
         height: 140vh;
+        position: relative;
     }
     .incor{
       position: absolute;
-      margin: -28rem 2rem;
-      width: 50rem;
+      margin: 5rem 2rem;
+      display: block;
     }
     .team-employee{
         margin: 10rem 0;
+        position: relative;
     }
     .f-leg{
         display: none;
     }
     .team-bg{
-        height: 160vh;    
+        height: 170vh;
+        margin: 10rem 0 0 0;
+        
     }
     .main-caro{
         padding: 0rem 0;
-        margin: 35rem 0rem ;
+        margin: -30rem 0rem ;
         position: relative;
         float:right;
+        
     }
     .home-blog{
-        margin: 7rem 0;  
+        margin: -5rem 0; 
+      
     }
     .home-footer{
         height: 60vh;
         width: 100vw;
         margin: 50rem 0 0 0;
        
-    
     }
 
 }
