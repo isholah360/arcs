@@ -114,7 +114,7 @@ const Header = () => {
            
         </div>
           <div className="thebuttons">
-            <div className="count">,4</div>
+            <div className="count" style{{margin: "0 -2rem"}}>,4</div>
             <button className="arrow top" onClick={plus}>&#8896;</button><br />
             <button className="arrow" onClick={minus}>&#8897;</button>
 
