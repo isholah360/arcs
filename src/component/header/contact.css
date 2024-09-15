@@ -194,6 +194,11 @@
     font-family: Teko;
     padding: .5rem 0 0 0;
 }
+  .theid{
+        margin: 31rem -1rem;
+        left: 1.6rem;
+        font-size: 4rem;
+    }
 
 @media screen and (max-width:460px){
    
